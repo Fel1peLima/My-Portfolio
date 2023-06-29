@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
             </>
             ),
-            href: 'https://www.linkedin.com/in/luiz-henrique-lima-83bbb3210/',
+            href: 'https://www.linkedin.com/in/felipe-lima-a428b6238/',
             style: 'rounded-tr-md'
         },
 
@@ -24,7 +24,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30} />
             </>
             ),
-            href: 'https://github.com/luizhen1',
+            href: 'https://github.com/Fel1peLima',
         },
 
         {
@@ -34,7 +34,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail size={30} />
             </>
             ),
-            href: 'mailto:oluizhen1@gmail.com',
+            href: 'mailto:felipelima.2297@gmail.com',
         },
 
         {
@@ -44,7 +44,7 @@ const SocialLinks = () => {
                 Curriculo <BsFillPersonLinesFill size={30} />
             </>
             ),
-            href: "/curriculo.pdf",
+            href: "/resume.pdf",
             style: 'rounded-tr-md',
             download: true,
         }
