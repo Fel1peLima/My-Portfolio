@@ -33,7 +33,7 @@ const Home = () => {
             </div>
             <div>
                 <img src={Minhaimg} alt="meu perfil" 
-                className="ml-5 rounded-2xl mx-auto w-2/3 md:w-full " />
+                className="ml-5 rounded-2xl mx-auto w-2/3 md:w-full  " />
             </div>
         </div>
     </div>

@@ -50,9 +50,9 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: wordpress,
-      title: "WordPress",
-      style: "shadow-sky-300",
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-sky-400",
     },
     {
       id: 8,
@@ -61,12 +61,7 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
 
-    {
-      id: 9,
-      src: mysql,
-      title: "MySQL",
-      style: "shadow-sky-400",
-    },
+ 
   ];
 
   return (
