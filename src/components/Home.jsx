@@ -10,7 +10,7 @@ const Home = () => {
     >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center
         justify-center h-full px-4 md:flex-row">
-            <div className="flex flex-col justify-center h-full  bg-gradient-to-r from-blue-500 to-purple-900 text-transparent bg-clip-text">
+            <div className=" mt-9 flex flex-col justify-center h-full  bg-gradient-to-r from-blue-500 to-purple-900 text-transparent bg-clip-text">
                 <h2 className=" text-4xl sm:text-7xl font-bold ">
                     Desenvolvedor Front-End</h2>
                     <p className="text-gray-300 py-4 max-w-md">
@@ -21,6 +21,7 @@ const Home = () => {
                         <Link to="portfolio"
                         smooth
                         duration={500}
+                        offset={150}
                         className="group text-white w-fit px-6 py-3 my-2 flex
                         items-center rounded-md bg-gradient-to-r from-blue-700
                         to-blue-950 cursor-pointer">

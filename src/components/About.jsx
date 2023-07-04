@@ -7,12 +7,12 @@ const About = () => {
     >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center
         w-full h-full">
-            <div className="pb-8">
+            <div className="pb-8 mt-80 ">
                 <p className="text-4xl font-bold inline border-b-4 border-white">
                     Sobre Mim
                 </p>
             </div>
-            <p className="text-xl mt-20">
+            <p className="text-xl mt-05">
             Olá meu nome é Felipe Batista de Lima! Sou um desenvolvedor front-end apaixonado pelo desenvolvimento web e design, tenho um grande conhecimento em HTML, CSS, JavaScript e tecnologias em NodeJS, ReactJS, MongoDB, MySQL e WordPress, sempre buscando conhecimento para melhorar a cada dia.
             </p>
             <br />

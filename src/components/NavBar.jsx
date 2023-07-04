@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState,} from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import {Link} from "react-scroll"
-import {HiOutlineBadgeCheck} from "react-icons/hi"
+import ScrollButton from './ScrollButton';
+
+
+
 
 
 function NavBar() {
@@ -12,6 +15,8 @@ function NavBar() {
     {
       id: 1,
       link: "home",
+   
+     
     },
     {
       id: 2,
@@ -32,6 +37,9 @@ function NavBar() {
    
   ];
 
+ 
+ 
+
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white
      bg-black fixed">
@@ -39,22 +47,24 @@ function NavBar() {
      
         
         <div className=" bg-gradient-to-r from-blue-500 to-purple-900 text-transparent bg-clip-text">
-        <h1  className="text-5xl font-bold ml-2 ">Felipe Lima
-        </h1>
+       <ScrollButton/>
        
 </div>
      
 
       <ul className="hidden md:flex">
-        {links.map(({id, link}) =>(
+        {links.map(({id, link,}) =>(
             <li 
             key={id}
             className="px-4 cursor-pointer capitalize font-medium
             text-white hover:scale-105 duration-200">
-             <Link to={link} smooth duration={500}>
+             
+             <Link to={link} smooth duration={500} offset={150} >
               {link}
               </Link>
+              
              </li>
+      
         ))}
 
       </ul>
@@ -75,7 +85,7 @@ function NavBar() {
              className="px-4 cursor-pointer capitalize py-6 text-4xl">
               <Link 
               onClick={() => setNav(!nav)}
-              to={link} smooth duration={500}>
+              to={link} smooth duration={500} offset={150}>
               {link}
               </Link>
               </li>

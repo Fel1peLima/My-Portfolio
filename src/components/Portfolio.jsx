@@ -1,10 +1,9 @@
 import React from 'react'
 import site from '../assets/portfolio/site.png'
-import installNode from '../assets/portfolio/installNode.jpg'
+
 import embreve from '../assets/portfolio/embreve.png'
 import sistemacrm from '../assets/portfolio/codemaster.png'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+
 
 const Portfolio = () => {
 
@@ -48,7 +47,7 @@ const Portfolio = () => {
           className="bg-gradient-to-b  from-black  to-blue-950 w-full text-white md:h-screen"
         >
           <div className="max-w-screen-lg p-4 mx-auto  flex flex-col justify-center w-full h-full">
-            <div className="pb-8">
+            <div className="pb-8 mt-80">
               <p className="text-4xl font-bold inline border-b-4 border-white">
                 Portfolio
               </p>
