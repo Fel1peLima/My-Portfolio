@@ -1,7 +1,9 @@
 import React from 'react'
-import site from '../assets/portfolio/site.png'
-
-import embreve from '../assets/portfolio/embreve.png'
+import site from '../assets/portfolio/ThumbSitedeNoticia.png'
+import montyhall from '../assets/portfolio/MontyHallthumb.png'
+import api from '../assets/portfolio/ThumbAPI.png'
+import socket from '../assets/portfolio/socket-iothumb.png'
+import calculadora from '../assets/portfolio/CalculadoraApp.png'
 import sistemacrm from '../assets/portfolio/codemaster.png'
 
 
@@ -20,22 +22,22 @@ const Portfolio = () => {
 
         {
             id:3,
-            src: embreve
+            src: montyhall
         },
 
         {
             id:4,
-            src: embreve
+            src: calculadora
         },
 
         {
             id:5,
-            src: embreve
+            src: socket
         },
 
         {
             id:6,
-            src: embreve
+            src: api
         }
     ]
 
