@@ -12,32 +12,38 @@ const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src: site
+            src: site,
+            link: 'https://github.com/Fel1peLima/League-Cenario-News'
         },
 
         {
             id:2,
-            src: sistemacrm
+            src: sistemacrm,
+            link: 'https://felipelima-portfolio.netlify.app'
         },
 
         {
             id:3,
-            src: montyhall
+            src: montyhall,
+            link: 'https://github.com/Fel1peLima/MontyHall-Problem'
         },
 
         {
             id:4,
-            src: calculadora
+            src: calculadora,
+            link: 'https://github.com/Fel1peLima/Calculadora-vue'
         },
 
         {
             id:5,
-            src: socket
+            src: socket,
+            link: 'https://github.com/Fel1peLima/Socket-Chat'
         },
 
         {
             id:6,
-            src: api
+            src: api,
+            link: 'https://github.com/Fel1peLima/Mini_E-Commerce'
         }
     ]
 
@@ -57,7 +63,7 @@ const Portfolio = () => {
             </div>
     
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-              {portfolios.map(({ id, src }) => (
+              {portfolios.map(({ id, src, link}) => (
                 <div key={id} className="shadow-md shadow-black rounded-lg">
                   <img
                     src={src}
@@ -65,12 +71,10 @@ const Portfolio = () => {
                     className="rounded-md duration-200 hover:scale-105"
                   />
                   <div className="flex items-center justify-center">
-                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                      Demo
-                    </button>
-                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    
+                    <a href={link} className="w-1/2 px-14 py-3 m-4 duration-200 hover:scale-105">
                       Code
-                    </button>
+                    </a>
                   </div>
                 </div>
               ))}
